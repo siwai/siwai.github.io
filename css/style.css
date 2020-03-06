@@ -7,12 +7,12 @@ html {
 body {
   background-color: #f7f7f7;
 }
-body,
-button,
-input,
-select,
-textarea {
-  font-family: "Ubuntu", "Roboto", "Open Sans", "Microsoft YaHei", sans-serif;
+body .wf-nikukyu,
+button .wf-nikukyu,
+input .wf-nikukyu,
+select .wf-nikukyu,
+textarea .wf-nikukyu {
+  font-family: "Nikukyu";
 }
 @media screen and (min-width: 1280px) {
   .is-1-column .container,
