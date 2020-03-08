@@ -7,12 +7,12 @@ html {
 body {
   background-color: #f7f7f7;
 }
-body .wf-nikukyu,
-button .wf-nikukyu,
-input .wf-nikukyu,
-select .wf-nikukyu,
-textarea .wf-nikukyu {
-  font-family: "Nikukyu";
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'Quicksand', "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ', Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 @media screen and (min-width: 1280px) {
   .is-1-column .container,
@@ -373,6 +373,7 @@ img.thumbnail {
 .content h5,
 .content h6 {
   font-weight: 400;
+  font-family: 'Quicksand', "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ', Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 .content h1 {
   font-size: 1.75em;
